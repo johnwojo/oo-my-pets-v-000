@@ -12,5 +12,9 @@ attr_accessor :pets
     @@all
   end
 
+  def reset_all
+    @@all = []
+  end
+
 
 end
