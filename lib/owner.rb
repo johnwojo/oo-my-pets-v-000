@@ -5,8 +5,8 @@ attr_reader :species
 
   def initialize(pets)
     @pets = {fishes: [], cats: [], dogs: []}
-    @@all << self
     @species = "human"
+    @@all << self
   end
 
 
