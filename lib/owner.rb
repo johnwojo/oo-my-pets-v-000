@@ -2,13 +2,13 @@ require 'pry'
 class Owner
 attr_accessor :pets, :name
 attr_reader :species
-@fish = []
 @@all = []
 
   def initialize(pets)
     @pets = {fishes: [], cats: [], dogs: []}
     @species = "human"
     @@all << self
+    @fish = []
   end
 
 
