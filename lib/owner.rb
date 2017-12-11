@@ -30,8 +30,8 @@ attr_reader :species
 
   def buy_fish(fish)
     pets[:fishes].each do |a,b| b<<fish
+    end
   end
-end
 
   def fish
     @fish
