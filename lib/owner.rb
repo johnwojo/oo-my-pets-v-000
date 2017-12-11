@@ -29,7 +29,7 @@ attr_reader :species
   end
 
   def buy_fish(fish)
-    pets.each do |a,b| b << fish
+    pets.each do |type,pet| pet << fish
     end
   end
 
