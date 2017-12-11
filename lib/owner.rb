@@ -33,10 +33,7 @@ attr_reader :species
     @pets[:fishes] << fish
   end
 
-  def fish
-    @fish
-  end
-
+  
 
 
 
