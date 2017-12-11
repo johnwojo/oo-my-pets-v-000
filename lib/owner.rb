@@ -67,7 +67,7 @@ attr_reader :species
 
 
   def list_pets
-
+    return "I have #{@pets[:fishes].count} fish."
   end
 
 end
