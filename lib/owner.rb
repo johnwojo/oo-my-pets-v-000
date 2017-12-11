@@ -23,7 +23,7 @@ attr_reader :species
     self.all.count
   end
 
-  def say_species
+  def self,.say_species
     puts "I am a #{self.species}!"
   end
   binding.pry
