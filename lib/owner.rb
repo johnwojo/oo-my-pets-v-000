@@ -64,6 +64,9 @@ attr_reader :species
     @pets[:cats] = []
     @pets[:dogs] = []
   end
+end
+end
+end
 
 
   def list_pets
