@@ -26,7 +26,6 @@ attr_reader :species
   def self.say_species
     return "I am a #{self.species}!"
   end
-  binding.pry
 
 
 
