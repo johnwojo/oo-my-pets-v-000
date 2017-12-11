@@ -46,5 +46,7 @@ attr_reader :species
     Dog.all.mood = "happy"
   end
 
+  
+
 
 end
