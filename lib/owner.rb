@@ -58,15 +58,15 @@ attr_reader :species
 
   def sell_pets
     @pets[:fishes].each do |fish| fish.mood = "nervous"
-    @pets[:cats].each do |cat| cat.mood = "nervous"
-    @pets[:dogs].each do |dog| dog.mood = "nervous"
-    @pets[:fishes] = []
-    @pets[:cats] = []
-    @pets[:dogs] = []
+      @pets[:cats].each do |cat| cat.mood = "nervous"
+        @pets[:dogs].each do |dog| dog.mood = "nervous"
+          @pets[:fishes] = []
+          @pets[:cats] = []
+          @pets[:dogs] = []
+        end
+      end
+    end
   end
-end
-end
-end
 
 
   def list_pets
