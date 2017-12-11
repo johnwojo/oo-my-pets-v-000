@@ -28,8 +28,8 @@ attr_reader :species
     return "I am a #{self.species}."
   end
 
-  def buy_fish(fish)
-    pets.each do |type,pet| pet << fish
+  def buy_fish(name)
+    fish = Fish.new(name)
     end
   end
 
