@@ -29,7 +29,7 @@ attr_reader :species
   end
 
   def buy_fish(fish)
-    pets[fishes:] = fish
+    pets[:fishes].each do |a,b| b<<fish
   end
 
   def fish
