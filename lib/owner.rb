@@ -28,7 +28,7 @@ attr_reader :species
     return "I am a #{self.species}."
   end
 
-  def buy_fish(fish_name)
+  def buy_fish(fish)
     pets[fishes:] << fish_name
   end
 
