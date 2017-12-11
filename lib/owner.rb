@@ -8,7 +8,6 @@ attr_reader :species
     @pets = {fishes: [], cats: [], dogs: []}
     @species = "human"
     @@all << self
-    @fish = []
   end
 
 
