@@ -24,7 +24,7 @@ attr_reader :species
   end
 
   def say_species
-    return "I am a #{self.species}!"
+    return "I am a #{self.species}."
   end
 
 
