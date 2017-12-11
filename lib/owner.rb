@@ -8,6 +8,8 @@ attr_accessor :pets
   end
 
 
+  def self.all
+    @@all
 
 
 end
