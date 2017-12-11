@@ -22,7 +22,9 @@ attr_reader :species
     self.all.count
   end
 
-
+  def say_species
+    puts self.species
+  end
 
 
 
