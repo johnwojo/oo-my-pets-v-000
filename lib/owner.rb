@@ -2,6 +2,7 @@ require 'pry'
 class Owner
 attr_accessor :pets, :name
 attr_reader :species
+@fish = []
 @@all = []
 
   def initialize(pets)
@@ -28,6 +29,7 @@ attr_reader :species
   end
 
   def buy_fish(fish_name)
+    @fish = fish
   end
 
 
