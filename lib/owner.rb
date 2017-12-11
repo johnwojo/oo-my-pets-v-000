@@ -51,5 +51,10 @@ attr_reader :species
     end
   end
 
+  def feed_dish
+    @pets[:fishes].each do |fish| fish.mood = "happy"
+    end
+  end
+
 
 end
