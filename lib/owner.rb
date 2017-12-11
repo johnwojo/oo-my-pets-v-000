@@ -10,6 +10,7 @@ attr_accessor :pets
 
   def self.all
     @@all
+  end
 
 
 end
