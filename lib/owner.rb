@@ -17,7 +17,7 @@ attr_accessor :pets
   end
 
   def self.count
-    @all.count
+    self.all.count
   end
 
 
