@@ -34,6 +34,7 @@ attr_reader :species
 
   def fish
     @fish
+  end
 
 
 
