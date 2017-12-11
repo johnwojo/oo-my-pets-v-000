@@ -58,6 +58,8 @@ attr_reader :species
 
   def sell_pets
     @pets[:fishes] = []
+    @pets[:cats] = []
+    @pets[:dogs] = []
   end
 
 
