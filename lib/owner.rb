@@ -29,7 +29,7 @@ attr_reader :species
   end
 
   def buy_fish(fish)
-    pets[fishes:] << fish_name
+    pets[fishes:] = fish
   end
 
   def fish
