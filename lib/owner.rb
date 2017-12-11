@@ -10,7 +10,6 @@ attr_reader :species
     @@all << self
   end
 
-
   def self.all
     @@all
   end
@@ -46,7 +45,7 @@ attr_reader :species
     Dog.all.mood = "happy"
   end
 
-  
+
 
 
 end
