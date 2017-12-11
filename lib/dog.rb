@@ -9,7 +9,7 @@ class Dog
       @@all_dogs << self
     end
 
-    def all_dogs
+    def self.all_dogs
       @@all_dogs
     end
 
